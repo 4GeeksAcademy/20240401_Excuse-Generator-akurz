@@ -1,0 +1,89 @@
+body {
+ background-color: black;
+ font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.header {
+ background-color: white;
+ width: 45%;
+ height: 50px;
+ margin: auto;
+ margin-top: 5%;
+ display: flex;
+}
+
+.header-icon {
+ float: left;
+ border: red dashed;
+ width: 5%;
+ margin: auto;
+}
+
+.header-icon img {
+ width:90%;
+ height:40%;
+}
+
+.header-username {
+ float: left;
+ border: blue dashed;
+ width: 90%;
+}
+
+.header-username h4 {
+ margin-top: 0.25%;
+}
+
+.header-username p {
+ margin-top: -4%;
+ font-size: 11%;
+}
+
+.header-ellipses {
+ float: right;
+ border: green dashed;
+ width: 5%;
+ margin: auto;
+}
+
+.header-ellipses img {
+ width: 90%;
+ height: 10%;
+}
+
+.photo {
+ border: white dashed;
+ width:45%;
+ height:45%;
+ display: flex;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.photo img {
+ width: 100%;
+ height: 100%;
+}
+
+.footer {
+ background-color: white;
+ width: 45%;
+ margin: auto;
+ margin-top: 0%;
+ border: orange dashed;
+ }
+
+.engagements {
+ display: flex;
+ align-items: center;
+}
+
+.ded {
+ float: left;
+ width: 93%;
+}
+
+
+.network {
+ border: brown dashed;
+}
